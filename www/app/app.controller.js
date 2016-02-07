@@ -7,6 +7,7 @@
 
 	AppController.$inject = [];
 
+	/* @ngInject */
 	function AppController() {
 		var vm = this;
 	};

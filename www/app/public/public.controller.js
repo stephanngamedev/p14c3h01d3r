@@ -7,6 +7,7 @@
 
 	PublicController.$inject = [];
 
+	/* @ngInject */
 	function PublicController() {
 		var vm = this;
         vm.message = 'Public page';

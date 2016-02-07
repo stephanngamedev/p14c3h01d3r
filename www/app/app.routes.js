@@ -29,6 +29,7 @@
 
 			.state('app.user', {
 				url: '/user',
+				authenticate: 'user',
 				views: {
 					'view': {
 						templateUrl: 'app/user/user.html',
@@ -40,6 +41,7 @@
 
             .state('app.admin', {
 				url: '/admin',
+				authenticate: 'admin',
 				views: {
 					'view': {
 						templateUrl: 'app/admin/admin.html',

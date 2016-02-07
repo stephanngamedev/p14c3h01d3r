@@ -5,9 +5,10 @@
 		.module('p14c3h01d3r')
 		.controller( 'AdminController', AdminController );
 
-	AdminController.$inject = [];
+	AdminController.$inject = ['$stateParams'];
 
-	function AdminController() {
+	/* @ngInject */
+	function AdminController( $stateParams ) {
 		var vm = this;
         vm.message = 'Admin page';
 	}

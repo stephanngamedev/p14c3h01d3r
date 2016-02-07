@@ -7,6 +7,7 @@
 
 	UserController.$inject = [];
 
+	/* @ngInject */
 	function UserController() {
 		var vm = this;
         vm.message = 'User page';
